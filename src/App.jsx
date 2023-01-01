@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import React, { Fragment } from 'react';
 import './App.css';
 import { Popover, Transition } from '@headlessui/react';
 
@@ -36,21 +35,40 @@ function App() {
                                 Get In Touch
                             </button>
                         </div>
-                        <Transition
-                            as={Fragment}
-                            enter='duration-150 ease-out'
-                            enterFrom='opacity-0 scale-95'
-                            enterTo='opacity-100 scale-100'
-                            leave='duration-100 ease-in'
-                            leaveFrom='opacity-100 scale-100'
-                            leaveTo='opacity-0 scale-95'
-                        >
-                            <Popover.Panel
-                                focus
-                                className='absolute inset-0 top-0 z-10 origin-top-right transform p-2 transition'
-                            ></Popover.Panel>
-                        </Transition>
                     </nav>
+                    <Transition
+                        as={Fragment}
+                        enter='duration-150 ease-out'
+                        enterFrom='opacity-0 scale-95'
+                        enterTo='opacity-100 scale-100'
+                        leave='duration-100 ease-in'
+                        leaveFrom='opacity-100 scale-100'
+                        leaveTo='opacity-0 scale-95'
+                    >
+                        <Popover.Panel
+                            focus
+                            className='absolute inset-0 top-0 z-10 origin-top-right transform transition'
+                        >
+                            <div className='bg-orange-100 shadow-md ring-1 ring-black ring-opacity-5 pt-3 pb-2 px-3'>
+                                <div className='flex items-center justify-between px-5 pt-4'>
+                                    <img
+                                        src='src/assets/icons/logo.svg'
+                                        alt='logo'
+                                        className='h-8 w-auto'
+                                    />
+                                    <div className='mr-2'>
+                                        <Popover.Button className='inline-flex items-center justify-center rounded-md bg-orange-400'>
+                                            <img
+                                                src='src/assets/icons/close.svg'
+                                                alt='close-ic'
+                                                className='h-7 w-auto p-1'
+                                            />
+                                        </Popover.Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </Popover.Panel>
+                    </Transition>
                 </section>
             </Popover>
         </div>
