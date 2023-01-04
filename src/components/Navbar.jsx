@@ -11,7 +11,7 @@ function Navbar() {
     return (
         <Popover>
             <section className='relatives mx-4 my-4'>
-                <nav className='flex items-center justify-between xl:justify-start'>
+                <nav className='flex mx-auto items-center justify-between xl:justify-start'>
                     <div className='flex items-center w-full justify-between md:w-auto'>
                         <img
                             className='h-6 w-auto md:h-8'
@@ -52,7 +52,7 @@ function Navbar() {
                         focus
                         className='absolute inset-0 top-0 z-10 origin-top-right transform transition'
                     >
-                        <div className='bg-orange-100 shadow-md ring-1 ring-black ring-opacity-5 pt-3 pb-3 px-3'>
+                        <div className='bg-white shadow-md ring-1 rounded-b-xl ring-black ring-opacity-5 pt-3 pb-3 px-3'>
                             <div className='flex items-center justify-between px-5 pt-4'>
                                 <img
                                     src='src/assets/icons/logo.svg'
