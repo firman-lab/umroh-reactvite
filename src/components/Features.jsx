@@ -6,7 +6,7 @@ function Features(props) {
             <div className='flex flex-auto lg:flex-row justify-between'>
                 <img
                     className='rounded-3xl object-cover h-80 md:w-full w-2/3'
-                    src='src/assets/images/hotels.jpg'
+                    src='/images/hotels.jpg'
                     alt='hotels'
                 />
                 <div className='w-full text-left ml-4 md:pl-2 lg:pl-8'>
@@ -25,7 +25,7 @@ function Features(props) {
                         <div className='p-2'>
                             <img
                                 className='h-10'
-                                src='src/assets/images/money.png'
+                                src='/images/money.png'
                                 alt='money'
                             />
                             <h5 className='font-semibold text-base pt-3'>
@@ -39,7 +39,7 @@ function Features(props) {
                         <div className='p-2'>
                             <img
                                 className='h-10'
-                                src='src/assets/images/custom.png'
+                                src='/images/custom.png'
                                 alt='money'
                             />
                             <h5 className='font-semibold text-base pt-3'>

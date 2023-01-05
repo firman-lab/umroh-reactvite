@@ -14,7 +14,7 @@ function Products() {
                     <div className='max-w-sm mx-3 my-3 md:mx-5 rounded-lg border shadow-lg'>
                         <img
                             className='object-cover rounded-t-lg'
-                            src='src/assets/images/img1.jpg'
+                            src='/images/img1.jpg'
                             alt='travel1'
                         />
                         <div className='p-3 md:p-5 text-sm h-auto lg:h-32 flex items-center'>
@@ -26,7 +26,7 @@ function Products() {
                     <div className='max-w-sm mx-3 my-3 md:mx-5 rounded-lg border shadow-lg'>
                         <img
                             className='object-cover rounded-t-lg'
-                            src='src/assets/images/img1.jpg'
+                            src='/images/img1.jpg'
                             alt='travel1'
                         />
                         <div className='p-3 md:p-5 text-sm h-auto lg:h-32 flex items-center'>
@@ -38,7 +38,7 @@ function Products() {
                     <div className='max-w-sm mx-3 my-3 md:mx-5 rounded-lg border shadow-lg'>
                         <img
                             className='object-cover rounded-t-lg'
-                            src='src/assets/images/img1.jpg'
+                            src='/images/img1.jpg'
                             alt='travel1'
                         />
                         <div className='p-3 pb- md:p-5 text-sm h-auto lg:h-32 flex items-center'>

@@ -2,12 +2,12 @@ import React from 'react';
 
 function Header() {
     return (
-        <main className="relative pt-16 bg-[url('src/assets/images/bgs.png')] bg-cover pb-16 xl:pb-24 xl:pt-24 md:px-12">
+        <main className="relative pt-16 bg-[url('/images/bgs.png')] bg-cover pb-16 xl:pb-24 xl:pt-24 md:px-12">
             <div className='flex flex-auto justify-center items-center'>
                 <div className='px-5'>
                     <img
                         className='h-10 w-auto'
-                        src='src/assets/images/ic-trust.png'
+                        src='/images/ic-trust.png'
                         alt='ic-trust'
                     />
                     <h1 className='pt-4 md:text-left font-bold space-y-3 text-white tracking-tight text-4xl lg:text-6xl'>
@@ -40,7 +40,7 @@ function Header() {
                 <div className='hidden md:flex md:justify-end md:w-5/12 pt-32'>
                     <img
                         className='h-32 lg:h-40 w-auto'
-                        src='src/assets/images/testimoni.png'
+                        src='/images/testimoni.png'
                         alt=''
                     />
                 </div>

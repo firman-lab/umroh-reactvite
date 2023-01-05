@@ -16,12 +16,12 @@ function Navbar() {
                         <img
                             className='h-6 w-auto md:h-8'
                             alt='logo'
-                            src='src/assets/icons/logo.svg'
+                            src='/icons/logo.svg'
                         />
                         <Popover.Button className='bg-orange-400 px-2 py-2 rounded-md inline-flex transition-all md:hidden'>
                             <span className='sr-only'>Main Menu</span>
                             <img
-                                src='src/assets/icons/bar.svg'
+                                src='/icons/bar.svg'
                                 className='h-3 w-auto'
                             />
                         </Popover.Button>
@@ -55,14 +55,14 @@ function Navbar() {
                         <div className='bg-white shadow-md ring-1 rounded-b-xl ring-black ring-opacity-5 pt-3 pb-3 px-3'>
                             <div className='flex items-center justify-between px-5 pt-4'>
                                 <img
-                                    src='src/assets/icons/logo.svg'
+                                    src='/icons/logo.svg'
                                     alt='logo'
                                     className='h-8 w-auto'
                                 />
                                 <div className='mr-2'>
                                     <Popover.Button className='inline-flex items-center justify-center rounded-md bg-orange-400'>
                                         <img
-                                            src='src/assets/icons/close.svg'
+                                            src='/icons/close.svg'
                                             alt='close-ic'
                                             className='h-7 w-auto p-1'
                                         />
