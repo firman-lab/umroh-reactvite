@@ -4,7 +4,7 @@ function Header() {
     return (
         <main className="relative pt-16 bg-[url('/images/bgs.png')] bg-cover pb-16 xl:pb-24 xl:pt-24 md:px-12">
             <div className='flex flex-auto justify-center items-center'>
-                <div className='px-5'>
+                <div className='px-5 pt-20'>
                     <img
                         className='h-10 w-auto'
                         src='/images/ic-trust.png'
